@@ -32,6 +32,8 @@ public class Main {
         8
         9*/
 
+        //step 42 searchtree removeitem
+
         //step 22 call method
         tree.traverse(tree.getRoot());
 
@@ -69,7 +71,9 @@ public class Main {
         }
 
         //step 25 calling method
-        tree.traverse(tree.getRoot());
+        //tree.traverse(tree.getRoot());
+        //step 44 comment out above and uncomment line 91 to 111
+        //step 45 run, works great!
 
         //step 26 run
             /*
@@ -88,7 +92,8 @@ public class Main {
         //step 27 return to MyLinkedList public boolean removeItem
 
         //step 30 calling on those methods
-        /*tree.removeItem(new Node("3"));
+
+        tree.removeItem(new Node("3"));
         tree.traverse(tree.getRoot());
 
         tree.removeItem(new Node("5"));
@@ -108,7 +113,7 @@ public class Main {
         tree.removeItem(tree.getRoot());
         tree.traverse(tree.getRoot());
         tree.removeItem(tree.getRoot());
-        tree.traverse(tree.getRoot());*/
+        tree.traverse(tree.getRoot());
 
         //step 31 run
         //obtained results
@@ -118,3 +123,4 @@ public class Main {
 
     }
 }
+
